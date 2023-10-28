@@ -23,7 +23,7 @@
   display: flex;
   font-weight: bold;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:766px){
   .navbar-items{
     list-style-type: none;
     display: flex;
@@ -38,5 +38,15 @@
 margin: 8px;
 }
 .custom-z-index {
-  z-index: 10; /* You can adjust the value as needed */
+  z-index: 10; 
+}
+
+.home-container{
+  background-image: radial-gradient(rgb(5, 66, 5),rgb(130, 100, 100),rgb(67, 60, 49));
+  min-height: 100vh;
+}
+.white-card{
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
