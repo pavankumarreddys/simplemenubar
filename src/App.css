@@ -23,7 +23,7 @@
   display: flex;
   font-weight: bold;
 }
-@media screen and (max-width:720px){
+@media screen and (max-width:768px){
   .navbar-items{
     list-style-type: none;
     display: flex;
