@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .header-container{
   background-image:linear-gradient(orange,white,green);
@@ -13,6 +13,30 @@
   width: 80px;
   border-radius: 100%;
 }
+.header-second-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navbar-items{
   list-style-type: none;
+  display: flex;
+  font-weight: bold;
+}
+@media screen and (max-width:720px){
+  .navbar-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+  }
+}
+.nav-item{
+margin: 8px;
+}
+.custom-z-index {
+  z-index: 10; /* You can adjust the value as needed */
 }
